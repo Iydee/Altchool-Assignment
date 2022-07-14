@@ -16,7 +16,9 @@ const assignment = {};
 
 const someNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+
 function sumOfNumbers(someNumbers) {
+
 let sum = 0;
 for (let i = 0; i < someNumbers.length; i++) {
   sum += someNumbers[i];
@@ -26,6 +28,8 @@ console.log(sum);
 }
 
 console.log(sumOfNumbers(someNumbers))
+
+
 
 
 /**
@@ -41,11 +45,13 @@ const evenNumbers =[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 function countEvenNumbers(evenNumbers) {
  let count = evenNumbers.length
+
 console.log(count)
     return evenNumbers.length;
 }
 
 console.log(countEvenNumbers(evenNumbers))
+
 
 
 /**
