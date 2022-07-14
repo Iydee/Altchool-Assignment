@@ -15,14 +15,13 @@ const assignment = {};
  */
 
 const someNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-let sum = 0;
 
+function sumOfNumbers(someNumbers) {
+let sum = 0;
 for (let i = 0; i < someNumbers.length; i++) {
   sum += someNumbers[i];
 }
 console.log(sum);
-
-function sumOfNumbers(someNumbers) {
     return someNumbers.length;
 }
 
@@ -38,13 +37,11 @@ console.log(sumOfNumbers(someNumbers))
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-
 const evenNumbers =[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
- let count = evenNumbers.length
-
-console.log(count)
 
 function countEvenNumbers(evenNumbers) {
+ let count = evenNumbers.length
+console.log(count)
     return evenNumbers.length;
 }
 
