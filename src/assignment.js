@@ -16,7 +16,7 @@ const assignment = {};
 
 function sumOfNumbers(arrayOfNumbers) {
   
-  let Sum = arrayOfNumbers.reduce((curr, prev) => curr + prev);
+  let Sum = arrayOfNumbers.reduce((currentNumber, previousNumber) => currentNumber + previousNumber);
   
     return Sum;
 }
